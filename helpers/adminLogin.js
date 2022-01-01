@@ -6,8 +6,8 @@ const adminLogin = async (body, path) => {
     method: "post",
     url: `https://sandbox-api.violet.io/v1/${path}`,
     headers: {
-      "X-Violet-App-Secret": "21a81126a67a4bc5964a4db72933ce57",
-      "X-Violet-App-Id": "10121",
+      "X-Violet-App-Secret": "",
+      "X-Violet-App-Id": "",
       "Content-Type": "application/json",
     },
     data: data,
